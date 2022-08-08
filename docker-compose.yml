@@ -9,21 +9,21 @@ services:
     ports:
       - 3001:3001
     depends_on:
-      db:
+      mongodb:
         condition: service_healthy
     healthcheck:
       test: ["CMD", "lsof", "-t", "-i:3001"]
       timeout: 10s
       retries: 5
     links:
-      - db
+      - mongodb
     networks:
       - carshop
-  db:
+  mongodb:
     image: mongo:5.0
-    container_name: db
+    container_name: mongodb
     ports:
-      - 27018:27018
+      - 27017:27017
     volumes:  
       - './data:/data/db'
     restart: 'always'
