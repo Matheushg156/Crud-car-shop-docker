@@ -15,6 +15,7 @@
   <a href="#white_check_mark-requerimentos">Requerimentos</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-começando">Começando</a> &#xa0; | &#xa0;
   <a href="#memo-melhorias">Melhorias</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-api">API</a> &#xa0; | &#xa0;
   <a href="https://github.com/Matheushg156" target="_blank">Author</a>
 </p>
 
@@ -94,6 +95,35 @@ Abaixo seguem alguma melhorias para esse projeto:
 
 - Criação e Integração com o frontend
 - Documentação da API com Swagger
+
+
+## :white_check_mark: API ##
+
+Para testar a API, utilize a ferramenta de sua escolha. Nesse projeto, foi utilizado a extensão do VSCode, Thunder Client.
+
+A rota principal da API é: <http://localhost:3001/cars/>
+
+-Get: <http://localhost:3001/cars/>
+
+<img src="./app/backend/images/get.png" alt="get" />
+
+-GetId: <http://localhost:3001/cars/:id/>
+
+<img src="./app/backend/images/getId.png" alt="getid" />
+
+-Post: <http://localhost:3001/cars/>
+
+<img src="./app/backend/images/post.png" alt="post" />
+
+-Put: <http://localhost:3001/cars/:id>
+
+<img src="./app/backend/images/put.png" alt="put" />
+
+-Delete: <http://localhost:3001/cars/:id>
+
+<img src="./app/backend/images/delete.png" alt="delete" />
+
+
 
 
 Feito por <a href="https://github.com/Matheushg156" target="_blank">Matheus H. Gonzaga</a>
