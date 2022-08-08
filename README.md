@@ -9,90 +9,93 @@
 <h1 align="center">Crud Car Shop Docker</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{YOUR_GITHUB_USERNAME}}/crud-car-shop-docker?color=56BEB8">
-
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{YOUR_GITHUB_USERNAME}}/crud-car-shop-docker?color=56BEB8">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/{{YOUR_GITHUB_USERNAME}}/crud-car-shop-docker?color=56BEB8">
-
-  <img alt="License" src="https://img.shields.io/github/license/{{YOUR_GITHUB_USERNAME}}/crud-car-shop-docker?color=56BEB8">
-
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/{{YOUR_GITHUB_USERNAME}}/crud-car-shop-docker?color=56BEB8" /> -->
-
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/{{YOUR_GITHUB_USERNAME}}/crud-car-shop-docker?color=56BEB8" /> -->
-
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/{{YOUR_GITHUB_USERNAME}}/crud-car-shop-docker?color=56BEB8" /> -->
-</p>
-
-<!-- Status -->
-
-<!-- <h4 align="center"> 
-	🚧  Crud Car Shop Docker 🚀 Under construction...  🚧
-</h4> 
-
-<hr> -->
-
-<p align="center">
-  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
-  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
-  <a href="#memo-license">License</a> &#xa0; | &#xa0;
+  <a href="#dart-about">Sobre</a> &#xa0; | &#xa0; 
+  <a href="#sparkles-features">Funcionalidades</a> &#xa0; | &#xa0;
+  <a href="#rocket-technologies">Tecnologias</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requirements">Requerimentos</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-starting">Começando</a> &#xa0; | &#xa0;
+  <a href="#memo-license">A fazer</a> &#xa0; | &#xa0;
   <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">Author</a>
 </p>
 
 <br>
 
-## :dart: About ##
+## :dart: Sobre ##
 
-Describe your project
+Este projeto se trata da criação de uma API com CRUD(Criar, Ler, Atualizar, e Excluir), para gerenciar uma concessionária de veículos utilizando o banco de dados MongoDB.
 
-## :sparkles: Features ##
+## :sparkles: Funcionalidades ##
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+:heavy_check_mark: Persistência de dados com MongoDb;\
+:heavy_check_mark: CRUD;\
+:heavy_check_mark: Testes;
 
-## :rocket: Technologies ##
+## :rocket: Tecnologias ##
 
-The following tools were used in this project:
+As seguinte tecnologias foram utilizadas neste projeto:
 
-- [Expo](https://expo.io/)
+- [MongoDb](https://www.mongodb.com/pt-br)
 - [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [Docker](https://www.docker.com/pt-br)
+- [Chai](https://www.chaijs.com/)
+- [Sinon](https://sinonjs.org/)
+- [Zod](https://www.npmjs.com/package/zod)
 
-## :white_check_mark: Requirements ##
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+## :white_check_mark: Requerimentos ##
 
-## :checkered_flag: Starting ##
+Antes de começar :checkered_flag:, você precisa ter [Git](https://git-scm.com), [Node](https://nodejs.org/en/) e [Docker](https://www.docker.com/pt-br) instalados.
 
+## :checkered_flag: Começando ##
+
+### Com docker ###
 ```bash
-# Clone this project
-$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/crud-car-shop-docker
+# Clone o projeto
+$ git clone git@github.com:Matheushg156/Crud-car-shop-docker.git
 
-# Access
+# Acesse o diretório do projeto
 $ cd crud-car-shop-docker
 
-# Install dependencies
-$ yarn
+# Suba os containers
+$ npm run compose:up
 
-# Run the project
-$ yarn start
+# O servidor irá inicializar em <http://localhost:3001>
 
-# The server will initialize in the <http://localhost:3000>
+# Execute os testes dentro do container
+$ docker exec -it crud-car-shop-docker_backend_1 sh
+$ npm run test:coverage
 ```
 
-## :memo: License ##
+### Sem docker ###
 
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
+```bash
+# Clone o projeto
+$ git clone git@github.com:Matheushg156/Crud-car-shop-docker.git
+
+# Acesse o diretório do projeto
+$ cd crud-car-shop-docker/app/backend
+
+# Instale as dependências
+$ npm install
+
+# Inicie o projeto
+$ npm start
+
+# O servidor irá inicializar em <http://localhost:3001>
+
+# Execute os testes
+$ npm run test:coverage
+```
+
+## :memo: A fazer ##
+
+Abaixo seguem alguma melhorias para esse projeto:
+
+- Criação e Integração com o frontend
+- Documentação da API com Swagger
 
 
-Made with :heart: by <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{YOUR_NAME}}</a>
-
-&#xa0;
+Feito por <a href="https://github.com/Matheushg156" target="_blank">{{Matheus H. Gonzaga}}</a>
 
 <a href="#top">Back to top</a>
