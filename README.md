@@ -9,13 +9,13 @@
 <h1 align="center">Crud Car Shop Docker</h1>
 
 <p align="center">
-  <a href="#dart-about">Sobre</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-features">Funcionalidades</a> &#xa0; | &#xa0;
-  <a href="#rocket-technologies">Tecnologias</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-requirements">Requerimentos</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Começando</a> &#xa0; | &#xa0;
-  <a href="#memo-license">A fazer</a> &#xa0; | &#xa0;
-  <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">Author</a>
+  <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0; 
+  <a href="#sparkles-funcionalidades">Funcionalidades</a> &#xa0; | &#xa0;
+  <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requerimentos">Requerimentos</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-começando">Começando</a> &#xa0; | &#xa0;
+  <a href="#memo-afazer">A fazer</a> &#xa0; | &#xa0;
+  <a href="https://github.com/Matheushg156" target="_blank">Author</a>
 </p>
 
 <br>
@@ -96,6 +96,6 @@ Abaixo seguem alguma melhorias para esse projeto:
 - Documentação da API com Swagger
 
 
-Feito por <a href="https://github.com/Matheushg156" target="_blank">{{Matheus H. Gonzaga}}</a>
+Feito por <a href="https://github.com/Matheushg156" target="_blank">Matheus H. Gonzaga</a>
 
 <a href="#top">Back to top</a>
