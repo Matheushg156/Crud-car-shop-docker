@@ -1,0 +1,21 @@
+{
+  "name": "crud-car-shop-docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compose:up": "docker-compose up -d --build",
+    "compose:down": "docker-compose down --remove-orphans"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matheushg156/Crud-car-shop-docker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matheushg156/Crud-car-shop-docker/issues"
+  },
+  "homepage": "https://github.com/Matheushg156/Crud-car-shop-docker#readme"
+}
