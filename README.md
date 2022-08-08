@@ -14,7 +14,7 @@
   <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requerimentos">Requerimentos</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-começando">Começando</a> &#xa0; | &#xa0;
-  <a href="#memo-afazer">A fazer</a> &#xa0; | &#xa0;
+  <a href="#memo-melhorias">Melhorias</a> &#xa0; | &#xa0;
   <a href="https://github.com/Matheushg156" target="_blank">Author</a>
 </p>
 
@@ -88,7 +88,7 @@ $ npm start
 $ npm run test:coverage
 ```
 
-## :memo: A fazer ##
+## :memo: Melhorias ##
 
 Abaixo seguem alguma melhorias para esse projeto:
 
